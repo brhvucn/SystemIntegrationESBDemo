@@ -1,0 +1,2 @@
+﻿# Demo 3 Consumer
+This consumer will consume a message from the queue and print it to the console. This Consumer does not make any assumptions about what is within the queue. The even/odd decision is up to the router.

@@ -1,0 +1,2 @@
+﻿# Demo 3 Router
+This "router" is both a consumer and a producer. It will consume a message, inspect the message, odd numbers go to the "oddqueue" and even messages go to the "evenqueue". First it will make sure that all queues exists (the call to create a queue is idempotent).
