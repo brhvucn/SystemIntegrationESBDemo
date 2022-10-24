@@ -1,7 +1,7 @@
 ﻿using RabbitMQ.Client;
 using System.Text;
 //code reference: https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html
-Console.WriteLine("Demo 1 - Hello World from RabbitMQ");
+Console.WriteLine("Demo 1 - Producing Hello World from RabbitMQ");
 var factory = new ConnectionFactory() { HostName = "localhost" };
 using (var connection = factory.CreateConnection())
 using (var channel = connection.CreateModel())
